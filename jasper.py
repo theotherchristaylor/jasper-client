@@ -109,13 +109,22 @@ class Jasper(object):
             salutation = "How can I be of service?"
         self.mic.say(salutation)
 
+<<<<<<< HEAD
         conversation = Conversation("HEY", self.mic, self.config)
+=======
+        conversation = Conversation("JASPER", self.mic, self.config)
+>>>>>>> 144f2d0f8aca3d2d93f00ce5cde30c8e665fd3c8
         conversation.handleForever()
 
 if __name__ == "__main__":
 
     print("*******************************************************")
+<<<<<<< HEAD
     print("*                 Commence speech.                    *")
+=======
+    print("*             JASPER - THE TALKING COMPUTER           *")
+    print("* (c) 2015 Shubhro Saha, Charlie Marsh & Jan Holthuis *")
+>>>>>>> 144f2d0f8aca3d2d93f00ce5cde30c8e665fd3c8
     print("*******************************************************")
 
     logging.basicConfig()
